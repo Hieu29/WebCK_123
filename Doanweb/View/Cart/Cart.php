@@ -8,7 +8,7 @@
 			{
 				$sum+=$item;
 			}
-			echo "<span class=\"product-count\" id=\"sl\">".count($_SESSION["mycart"])."</span></a>";
+			echo "<span class=\"product-count\" id=\"sl\">".$sum."</span></a>";
 		}
 		else{
 			echo "<span class=\"product-count\" id=\"sl\">"."0"."</span></a>";
